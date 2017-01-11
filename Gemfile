@@ -24,7 +24,6 @@ end
 
 group :test do
   gem "capybara"
-  gem "capybara-webkit"
   gem "coveralls", require: false
   gem "database_cleaner"
   gem "factory_girl_rails"
@@ -38,4 +37,3 @@ group :production do
   gem "puma"
   gem "rails_12factor"
 end
-
